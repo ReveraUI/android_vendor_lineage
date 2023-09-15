@@ -10,8 +10,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.revera.releasetype=$(REVERA_BUILDTYPE) \
     ro.revera.ziptype=$(REVERA_BUILD_ZIP_TYPE) \
     ro.revera.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(REVERA_VERSION) \
-    ro.reveralegal.url=https://lineageos.org/legal
+    ro.modversion=$(REVERA_VERSION)
 
 # Revera UI Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
