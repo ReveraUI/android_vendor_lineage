@@ -19,7 +19,3 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 # LineageOS Platform SDK Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.revera.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
-
-# LineageOS Platform Internal Version
-ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.revera.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
