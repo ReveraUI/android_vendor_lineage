@@ -4,13 +4,14 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 endif
 
-# LineageOS System Version
+# Revera UI System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.revera.version=$(REVERA_VERSION) \
     ro.revera.releasetype=$(REVERA_BUILDTYPE) \
+    ro.revera.ziptype=$(REVERA_BUILD_ZIP_TYPE) \
     ro.revera.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.modversion=$(REVERA_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
+    ro.reveralegal.url=https://lineageos.org/legal
 
 # Revera UI Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
