@@ -6,20 +6,20 @@ endif
 
 # LineageOS System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.version=$(REVERA_VERSION) \
-    ro.lineage.releasetype=$(REVERA_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.revera.version=$(REVERA_VERSION) \
+    ro.revera.releasetype=$(REVERA_BUILDTYPE) \
+    ro.revera.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.modversion=$(REVERA_VERSION) \
     ro.lineagelegal.url=https://lineageos.org/legal
 
-# LineageOS Platform Display Version
+# Revera UI Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.display.version=$(REVERA_DISPLAY_VERSION)
+    ro.revera.display.version=$(REVERA_DISPLAY_VERSION)
 
 # LineageOS Platform SDK Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
+    ro.revera.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
 
 # LineageOS Platform Internal Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    ro.revera.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
