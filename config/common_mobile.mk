@@ -16,7 +16,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     Backgrounds \
     ExactCalculator \
-    Jelly
+    Bromite
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
